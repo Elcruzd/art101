@@ -1,6 +1,8 @@
 h1 {
   color: red;
-  font-size: 200%;
+}
+h2 {
+  color: blue;
 }
 p {
   font-family: "comic sans";
@@ -9,11 +11,11 @@ p {
 }
 
 #content {
-  background-color: #cccccc;
+  background-color: LightGray;
   width: 500px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
-  border: solid 1px #444444;
+  border: solid 2px Violet;
   font-size: 20px;
 }
