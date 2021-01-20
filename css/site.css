@@ -1,0 +1,42 @@
+h1, h2 {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.assignments {
+  float: left;
+  width: 30%;
+  background: LightGray;
+  padding: 20px;
+  border-style: outset;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  float: left;
+  padding: 2px;
+  width: 70%;
+  background-color: LightGray;
+  border-style: outset;
+}
+
+img {
+  float: right;
+  border-style: outset;
+  padding: 2px;
+}
+
+body {
+  background-color: LightGray;
+  width: 97.8%;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
