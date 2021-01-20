@@ -5,7 +5,9 @@ h1, h2 {
   font-size: 35px;
   color: white;
 }
-
+h3 {
+  text-align: center;
+}
 .assignments {
   float: left;
   width: 30%;
