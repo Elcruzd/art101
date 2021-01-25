@@ -1,0 +1,33 @@
+h1 {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+pre {
+  background-color: black;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  display: inline;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ol {
+  background-color: black;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+}
