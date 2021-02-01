@@ -8,13 +8,13 @@
 myTransport = ["sedan car", "bus", "bicycle"];
 
 myMainRide = {
-  make: "Honda",
-  model: "Civic",
-  color: "Black",
-  year: 2019,
-  age: function() {
-    return 2021 - age;
-  }
+    make: "Honda",
+    model: "Civic",
+    color: "Black",
+    year: 2019,
+    age: function() {
+      return 2021 - age;
+    }
 }
 
 // output
