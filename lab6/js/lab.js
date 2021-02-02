@@ -20,4 +20,4 @@ myMainRide = {
 // output
 document.writeln("Kinds of transportion I use: ", myTransport, "</br>");
 document.writeln("</br>My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t'), "</pre>");
- document.writeln("The age of the car is: " + myMainRide.age(), " years");
+document.writeln("The age of the car is: " + myMainRide.age(), " years");
