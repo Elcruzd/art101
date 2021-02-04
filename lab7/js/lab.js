@@ -6,7 +6,7 @@
 
 // sortName is a function that takes user input and sorts the letters
 // of their name
-function sortName(){
+function sortName() {
   var userName = window.prompt("Which name do you want me to fix?");
   console.log("userName =", userName);
   // split string to array
@@ -19,6 +19,10 @@ function sortName(){
   var strSort = arraySort.join('');
   console.log("strSort =", strSort);
   return strSort;
+}
+
+function tryAgain() {
+  window.location.reload();
 }
 
 // Output
