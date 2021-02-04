@@ -10,7 +10,7 @@ function sortName() {
   var userName = window.prompt("Which name do you want me to fix?");
   console.log("userName =", userName);
   // split string to array
-  var strArray = userName.split('');
+  var strArray = userName.split(',');
   console.log("strArray =", strArray);
   // sort the array
   var arraySort = strArray.sort();
