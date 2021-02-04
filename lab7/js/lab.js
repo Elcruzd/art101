@@ -21,6 +21,7 @@ function sortName() {
   return strSort;
 }
 
+// a button that let you try again new input
 function tryAgain() {
   window.location.reload();
 }
