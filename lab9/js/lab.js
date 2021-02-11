@@ -23,6 +23,16 @@ new2El.innerHTML = "<p>It is new2El.</p>"
 outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
 
+// add a new element to the top of an element
+// "insertBefore" will add to the top
+function topElement() {
+  var topEl = document.getElementById("div1");
+  var top = document.createElement("h1");
+  var textTop = document.createTextNode("This is new element.");
+  top.appendChild(textTop);
+  topEl.insertBefore(top, topEl.childNodes[0]);
+}
+//peepee
 // Change the css attributes of at least two elements of your page
 function clickMe() {
   document.getElementById("p1").style.color = "#32a852";
