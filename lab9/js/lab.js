@@ -34,6 +34,7 @@ function clickMe() {
   document.getElementById("h4").style.color = "#7a7a69";
   document.getElementById("b1").style.backgroundColor = "white";
   document.getElementById("b1"). style.textAlign = "center";
+  document.getElementById("b1"). style.fontStyle = "oblique";
 }
 
 function changeBack() {
