@@ -11,7 +11,7 @@ var outputEl = document.getElementById("output");
 var new1El = document.createElement("p");
 
 // Change the html attribute of new1El to say something new.
-new1El.innerHTML = "<p>This is an example of me changing this element to say something new.</p>"
+new1El.innerHTML = "This is an example of me changing this element to say something new."
 
 // Create another new element and assign it to a variable new2El
 var new2El = document.createElement("div");
