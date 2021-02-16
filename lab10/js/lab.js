@@ -15,11 +15,12 @@ var button = document.getElementById('my-button');
         var userName = document.getElementById('user-name').value;
         // modify the name
         var sortedName = sortName(userName);
-
+        // put new value in output
         var outputEl = document.getElementById('output');
         outputEl.innerHTML = sortName(userName);
       });
 
+// Try another input/reload the page
 function tryAgain() {
   window.location.reload();
 }
