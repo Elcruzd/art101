@@ -17,8 +17,10 @@ problemSec.append(button);
 resultSec.append(button);
 
 // Add a click event to each button
-clicked = true;
-$('#challenge button').click(function(){
+// Toggle a class special within the <div> of the section
+// Go into your css and style each of the classes
+// Test each button
+$('#challenge button').click(function() {
   $('#challenge').toggleClass('special');
 })
 
@@ -29,11 +31,3 @@ $('#problems button').click(function(){
 $('#results button').click(function(){
   $('#results').toggleClass('special');
 })
-
-var buttonColor = "<button>Change button color</button>";
-challengeSec.append(buttonColor);
-problemSec.append(buttonColor);
-resultSec.append(buttonColor);
-$("button").click(function(){
-  $('')
-});
