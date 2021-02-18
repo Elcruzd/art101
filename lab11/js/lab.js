@@ -31,3 +31,11 @@ $('#problems button').click(function(){
 $('#results button').click(function(){
   $('#results').toggleClass('special');
 })
+
+// a button that changes another button's color and vice versa
+var outputSec = $('#output');
+var buttonChange = "<button>Change button color</button>";
+outputSec.prepend(buttonChange);
+$("#output button").click(function(){
+	$("button").toggleClass("red")
+});
