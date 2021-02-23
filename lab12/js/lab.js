@@ -37,5 +37,11 @@ $("#button").click(function() {
   var name = $("#input").val();
   var house = sortingHat(name);
   $("#output").append("<h1>");
-  $("#output h1").text("The Sorting Hat has sorted you into: " + house)
+  $("#output h1").text("The Sorting Hat has sorted you into: " + house, "hidden")
 })
+
+function sortHat(str) {
+  checksumValue = checksum(str);
+  mod = Math.abs(checksumValue) % housesArray.length;
+  return housesArray[mod];
+}

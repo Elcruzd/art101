@@ -40,6 +40,13 @@ body {
     outline: solid 50px #607371;
 }
 
+img {
+  float: right;
+  width: 330px;
+  border: solid 1px #76db85;
+  outline: solid 2px #607371;
+}
+
 .output {
   padding: 80px;
   font-size: 25px;
