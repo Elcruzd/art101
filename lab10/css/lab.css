@@ -1,14 +1,14 @@
 h1 {
-  text-align: center;
   font-size: 30px;
+  /* padding: 30px; */
   font-family: sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  /* text-align: center; */
 }
 h2 {
   background-color: #666;
   padding: 30px;
-  text-align: center;
   font-size: 25px;
   color: white;
   font-family: cursive;
@@ -16,13 +16,14 @@ h2 {
 }
 
 h3 {
-  text-align: center;
   font-family: fantasy;
   font-size: 25px;
+  padding: 40px;
+  text-align: center;
 }
 
 p {
-  padding: 5px;
+  /* padding: 30px; */
   margin: 5px;
   font-size: 25px;
   font-weight: bold;
@@ -34,11 +35,27 @@ p {
 body {
     background-color: #d3f0ed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 0px;
+    padding: 25px;
     margin: 20px;
     border: solid 5px #76db85;
-    outline: solid 50px #607371;
+    /* outline: solid 10px #607371; */
 }
+
+img {
+  float: right;
+  width: 390px;
+  border: solid 1px #76db85;
+  outline: solid 2px #607371;
+}
+
+#theImg {
+  float: right;
+  width: 120px;
+  height: 120px;
+  border: solid 1px #76db85;
+  outline: solid 2px #607371;
+}
+
 
 .output {
   padding: 80px;
@@ -48,4 +65,20 @@ body {
   background-color: black;
   min-height: 600px;
   font-family: sans-serif;
+}
+
+.special {
+  padding: 5px;
+  margin: 5px;
+  font-family: "Sofia", sans-serif;
+  background: white;
+  border: solid 1px black;
+}
+
+.red {
+  color: red;
+}
+
+.sourcelink {
+    float: right;
 }
