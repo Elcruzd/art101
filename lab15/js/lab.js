@@ -7,7 +7,7 @@
 $('#activate').click(function() {
     var topic = $('#input').val();
   console.log(topic)
-    var apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/redwood?redirect=true";
+    var apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/" + topic.replace(" ", "_") + "?redirect=true";
   console.log(apiUrl);
   $.ajax({
       // The URL for the request
@@ -25,6 +25,6 @@ $('#activate').click(function() {
   })
   // If the request fails
   .fail(function( xhr, status, errorThrown ) {
-      $('#output').html('<p>I could not find anything with that name!</p>');
+      $('#output').html('<p>I could not find anything!</p>');
   });
 })
