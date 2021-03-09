@@ -25,7 +25,7 @@ $('#activate').click(function() {
       success: function(comicObj) {
           // do stuff
           // comicObj = data;
-          $("#output-image").html("<p>" + comicObj.title + "<img src='" + comicObj.img + "' title='" + comicObj.alt + "'>");
+          $("#output-image").html("<p>" + comicObj.title + "</p> <img src='" + comicObj.img + "' title='" + comicObj.title + "' alt='" + comicObj.alt + "'>");
       },
       // What we do if the api call fails
       error: function (jqXHR, textStatus, errorThrown) {
