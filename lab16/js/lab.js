@@ -6,7 +6,7 @@
 
 // Using the core $.ajax() method
 $('#activate').click(function() {
-    var apiUrl = "http://xkcd.com/info.0.json";
+    var apiUrl = "https://xkcd.com/info.0.json";
     var comicObj = {};
 
     $.ajax({
@@ -23,9 +23,14 @@ $('#activate').click(function() {
       // What do we do when the api call is successful
       //   all the action goes in here
       success: function(comicObj) {
-          // do stuff
-          // comicObj = data;
-          $("#output-image").html("<p>" + comicObj.title + "</p> <img src='" + comicObj.img + "' title='" + comicObj.title + "' alt='" + comicObj.alt + "'>");
+        // do stuff
+        // comicObj = data;
+        $("#output-image").attr({
+          src: comicObj.img,
+          title: comicObj.title,
+          alt: comicObj.alt
+        });
+        $("#srcLink").html("<p>" + comicObj.title + "</p> <img src='" + comicObj.img + "' title='" + comicObj.title + "' alt='" + comicObj.alt + "'>");
       },
       // What we do if the api call fails
       error: function (jqXHR, textStatus, errorThrown) {
