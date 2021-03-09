@@ -66,6 +66,7 @@ img {
   font-family: sans-serif;
   /* -webkit-column-width: 200px;
   column-width: 200px; */
+  text-align: center;
 }
 
 /* #output p {
