@@ -3,7 +3,7 @@
 * Created: 3/3/2021
 * License: Public Domain
 */
-//is this the click event?
+
 $('#activate').click(function() {
     var topic = $('#input').val();
   console.log(topic)
@@ -20,11 +20,11 @@ $('#activate').click(function() {
       dataType : "json",
   })
     // If the request succeeds
-  .done(function( data ) {
+  .done(function(data) {
       $('#output').html(data.extract_html);
   })
   // If the request fails
-  .fail(function( xhr, status, errorThrown ) {
+  .fail(function(xhr, status, errorThrown) {
       $('#output').html('<p>I could not find anything!</p>');
   });
 })
