@@ -6,7 +6,7 @@
 
 // Using the core $.ajax() method
 $('#activate').click(function() {
-    var apiUrl = "http://xkcd.com/info.0.json";
+    var apiUrl = "https://cors-anywhere.herokuapp.com/http://xkcd.com/info.0.json";
     var comicObj = {};
 
     $.ajax({
