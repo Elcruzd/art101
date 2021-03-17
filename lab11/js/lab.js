@@ -39,7 +39,3 @@ outputSec.prepend(buttonChange);
 $("#output button").click(function(){
 	$("button").toggleClass("red")
 });
-
-$("#previous").click(function() {
-  window.history.back();
-})
